@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contoh CSS</title>
+    <style>
+      /* CSS untuk layout halaman */
+      body {
+        /*background-image: url('myflower.gif'); 
+            background-repeat: repeat-y;*/
+        background: #5d9ab2 url("myflower.gif") repeat-y left;
+        background-attachment: fixed;
+        margin-left: 100px;
+        margin-top: 50px;
+        margin-right: 50px;
+      }
+
+      h1 {
+        background-color: #6495ed;
+        padding: 10px;
+      }
+
+      p {
+        background-color: #e0ffff;
+        padding: 5px;
+      }
+
+      div {
+        border: 7px solid gray;
+        padding: 10px;
+        background-color: #b0c4de;
+        color: purple;
+        font-size: 18pt;
+        text-align: justify;
+        line-height: 1.5;
+      }
+
+      a {
+        text-decoration: none; /* Menghilangkan garis bawah */
+      }
+
+      a:link {
+        color: #ff0000; /* Link belum dikunjungi */
+      }
+
+      a:visited {
+        color: #00ff00; /* Link telah dikunjungi */
+      }
+
+      a:hover {
+        color: #ff00ff; /* Saat mouse di atas link */
+      }
+
+      a:active {
+        color: #0000ff; /* Saat link diklik */
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Contoh Penggunaan Warna Latar Belakang dalam CSS</h1>
+
+    <div>
+      Ini adalah teks dalam elemen div.
+      <p>Paragraph ini mempunyai warna latar belakang sendiri.</p>
+      Museum Sejarah Jakarta <br />
+      <a href="#">Contoh Link</a>
+    </div>
+  </body>
+</html>
